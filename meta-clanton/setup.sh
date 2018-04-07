@@ -50,7 +50,7 @@ BBPATH = "\${TOPDIR}"
 BBFILES ?= ""
 BBLAYERS ?= " \\
   $poky_dir/meta \\
-  $poky_dir/meta-yocto \\
+  $my_dir/meta-yocto/meta-poky \\
   $poky_dir/meta-yocto-bsp \\
   $metaintel_dir \\
   $metaoe_dir \\
